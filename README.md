@@ -71,6 +71,30 @@ mall
 | Portainer              | 可视化Docker容器管理 | https://github.com/portainer/portainer               |
 | Jenkins                | 自动化部署工具       | https://github.com/jenkinsci/jenkins                 |
 
+| DbSharding 跑的任务 |AppId| 状态 |
+| --- | --- | --- | --- |
+|CRM会员降级计算-core        艾芳|未知|异常|
+|消息模板推送        黄国春|EZR.CRM.ActSchedule.ApiHost|正常|
+|开放平台商品中心一致性重试JOB        吴洋洋|EZR.OP.ProductMQ.Scheduler.Clients|正常|
+|CRM消费守护Job        艾芳| EZP.Crm.Task.Scheduler.WebApi|正常|
+|Mall消费守护Job        贺斌|EZP.Mall.Task.Scheduler.Core|异常|
+|礼品卡数据一致性重试job        刘京召|EZR.WeiXin.GiftCard.TaskService.WebApi|正常|
+|POS一致性重试        王爱洋|EZR.CPOS.POSMQ.WebApi|正常|
+|CPos守护进程        艾芳|未知|异常|
+|【线下支付】数据一致性job        刘京召|未知|异常|
+|库存处理消息重试StcokUpdateQueueRetry        凌晨|EZR.OMCR.Stock.ScheduleHost|正常|
+|开放平台商品中心一致性重试OPProd        周瑞|EZR.OP.ProductMQ.Scheduler.Clients|正常|
+|自动刷新阿拉丁Token        孙飞|EZP.WxOpen.Task.Scheduler.Api|正常|
+|CRM-Export行政区域数据        张经纬|EZP.Crm.Task.Scheduler.WebApi|正常|
+|CRM-Export带参二维码规则数据        张经纬|EZP.Crm.Task.Scheduler.WebApi|正常|
+|CRM-Export片区数据        张经纬|EZP.Crm.Task.Scheduler.WebApi|正常|
+|CRM-Export品牌门店店群数据        张经纬|EZP.Crm.Task.Scheduler.WebApi|正常|
+|CRM-Export品牌门店数据        张经纬|EZP.Crm.Task.Scheduler.WebApi|正常|
+|CRM-Export品牌员工数据        张经纬|EZP.Crm.Task.Scheduler.WebApi|正常|
+|CRM-Export会员维度数据        张经纬|EZP.Crm.Task.Scheduler.WebApi|正常|
+|聊天数据同步至大数据        黄桂林|EZP.Crm.Task.Scheduler.Big.WebApi|正常|
+|基础数据配置表同步大数据        黄桂林|EZP.Crm.Task.Scheduler.Big.WebApi|正常|
+
 ### 前端技术
 
 | 技术       | 说明                  | 官网                           |
